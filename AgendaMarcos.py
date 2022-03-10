@@ -1,4 +1,6 @@
 #Este programa añade y modifica nombres y números de teléfono a un diccionario
+# Autor: Marcos Sánchez Jiménez
+# Creación: 1/03/2022 11:00
 def agregarModificar_MSanchez(nombre, agenda):
     #Busca el contacto en la agenda
     if nombre in agenda:
@@ -12,5 +14,3 @@ def agregarModificar_MSanchez(nombre, agenda):
             numero = int(input("Escribe el nuevo número de teléfono: "))
             agenda[nombre]=numero
 
-# Autor: Marcos Sánchez Jiménez
-# Creación: 1/03/2022 11:00
